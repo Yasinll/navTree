@@ -13,6 +13,9 @@
 		CD6499432060E1E900897CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6499422060E1E900897CBC /* Assets.xcassets */; };
 		CD6499462060E1E900897CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6499442060E1E900897CBC /* LaunchScreen.storyboard */; };
 		CD6499492060E1E900897CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6499482060E1E900897CBC /* main.m */; };
+		CD6499512060F49200897CBC /* CitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6499502060F49200897CBC /* CitiesViewController.m */; };
+		CD6499542060F4BA00897CBC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6499532060F4BA00897CBC /* DetailViewController.m */; };
+		CD6499562060F9AA00897CBC /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD6499552060F9AA00897CBC /* provinces_cities.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		CD6499452060E1E900897CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD6499472060E1E900897CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6499482060E1E900897CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD64994F2060F49200897CBC /* CitiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitiesViewController.h; sourceTree = "<group>"; };
+		CD6499502060F49200897CBC /* CitiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiesViewController.m; sourceTree = "<group>"; };
+		CD6499522060F4BA00897CBC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD6499532060F4BA00897CBC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD6499552060F9AA00897CBC /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,12 @@
 				CD64993A2060E1E900897CBC /* AppDelegate.m */,
 				CD64993C2060E1E900897CBC /* ViewController.h */,
 				CD64993D2060E1E900897CBC /* ViewController.m */,
+				CD64994F2060F49200897CBC /* CitiesViewController.h */,
+				CD6499502060F49200897CBC /* CitiesViewController.m */,
+				CD6499522060F4BA00897CBC /* DetailViewController.h */,
+				CD6499532060F4BA00897CBC /* DetailViewController.m */,
 				CD64993F2060E1E900897CBC /* Main.storyboard */,
+				CD6499552060F9AA00897CBC /* provinces_cities.plist */,
 				CD6499422060E1E900897CBC /* Assets.xcassets */,
 				CD6499442060E1E900897CBC /* LaunchScreen.storyboard */,
 				CD6499472060E1E900897CBC /* Info.plist */,
@@ -130,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6499462060E1E900897CBC /* LaunchScreen.storyboard in Resources */,
+				CD6499562060F9AA00897CBC /* provinces_cities.plist in Resources */,
 				CD6499432060E1E900897CBC /* Assets.xcassets in Resources */,
 				CD6499412060E1E900897CBC /* Main.storyboard in Resources */,
 			);
@@ -142,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6499542060F4BA00897CBC /* DetailViewController.m in Sources */,
 				CD64993E2060E1E900897CBC /* ViewController.m in Sources */,
+				CD6499512060F49200897CBC /* CitiesViewController.m in Sources */,
 				CD6499492060E1E900897CBC /* main.m in Sources */,
 				CD64993B2060E1E900897CBC /* AppDelegate.m in Sources */,
 			);
